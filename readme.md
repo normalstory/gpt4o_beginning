@@ -17,7 +17,10 @@
 * python3 03_image_Url.py (손으로 그린 그림을 사진찍어서 깃헙에 업로드한 이미지)
 * python3 04_Summary_Video.py (로컬에 저장된 mp4)
 * python3 05_Summary_Audio.py (로컬에 저장된 mp3)
-
+* python3 C06_Summary_VideoAudio.py 
+* python3 C07_Video_QA.py   
+* python3 C08_Audio_QA.py   
+* python3 C09_QA_VideoAudio.py
 
 reference
 --------------------------------------------------------
