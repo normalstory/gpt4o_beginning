@@ -13,8 +13,15 @@
 
 ### 04 - 예제 실행 
 * python3 01_BasicChat.py
-* python3 02_Image_Base64.py
+* python3 02_Image_Base64.py (로컬에 저장된 이미지)
+* python3 03_image_Url.py (손으로 그린 그림을 사진찍어서 깃헙에 업로드한 이미지)
+* python3 04_Summary_Video.py (로컬에 저장된 mp4)
+* python3 05_Summary_Audio.py (로컬에 저장된 mp3)
 
 
+reference
 --------------------------------------------------------
-`코드 출처: Mervin Praison https://mer.vin/`
+- GPT-4o(@openai): https://platform.openai.com/docs/models/gpt-4o 
+- Code(@Mervin Praison): https://mer.vin/2024/05/gpt-4o-api/
+- Generate shorts(@ssemble) : https://www.ssemble.com/
+- Video(@AndyHertzfeld): https://www.youtube.com/watch?v=oTtQ0l0ukvQ
