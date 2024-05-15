@@ -1,14 +1,17 @@
-# .env file에서 환경변수(API key)가져와서 로드하기 
+# 환경변수 로딩
 from dotenv import load_dotenv
 load_dotenv() 
 
-
-# 실습3 - Image Processing: URL
+# 이미지 처리 라이브러리와 OpenAI 라이브러리 불러오기
 from openai import OpenAI 
 
 client = OpenAI()
 MODEL="gpt-4o"
 
+# 클라이언트를 사용하여 대화를 생성
+# system과 user의 역할이 있고, 각각 메시지를 담고 있음
+# 시스템의 메시지를 제공하여 챗봇의 역할을 정의
+# user의 메시지에 핵심 질문과 함께 삼각형의 이미지가 있는 URL을 제공
 response = client.chat.completions.create(
     model=MODEL,
     messages=[
@@ -22,4 +25,5 @@ response = client.chat.completions.create(
     temperature=0.0,
 )
 
+# 응답 출력
 print(response.choices[0].message.content)
